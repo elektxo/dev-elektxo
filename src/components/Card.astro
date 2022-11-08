@@ -4,11 +4,11 @@ const { href, title, body, image } = Astro.props;
 
 <li class="link-card">
 	<a href={href}>
-		<h2>
+		<h2 class='text-white'>
 			{title}
 			<span>&rarr;</span>
 		</h2>
-		<p>
+		<p class='text-light'>
 			{body}
 		</p>
 		<!--<img class="card-img-button" src={image}>-->
@@ -35,7 +35,7 @@ const { href, title, body, image } = Astro.props;
 		padding: 1rem 1.3rem;
 		border-radius: 0.35rem;
 		color: #111;
-		background-color: white;
+		background-color: #0e294b;
 		opacity: 0.8;
 	}
 	h2 {
