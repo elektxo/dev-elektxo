@@ -1,13 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
+title: 'Example My First Blog Post'
 pubDate: 2022-07-01
 description: "This is the first post of my new Astro blog."
-author: "Astro Learner"
+author: elektxo
 image:
-  url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
+  url: "https://static.wixstatic.com/media/10a674_6ac90e4131794967a0899ef3abd9c923~mv2.png/v1/fill/w_740,h_417,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/10a674_6ac90e4131794967a0899ef3abd9c923~mv2.png"
   alt: "The Astro logo with the word One."
 tags: ["astro", "blogging", "learning in public"]
+
 ---
 
 # My First Blog Post

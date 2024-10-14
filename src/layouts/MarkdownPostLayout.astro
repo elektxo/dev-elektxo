@@ -1,13 +1,106 @@
 ---
 import * as blogStyles from "./blog.module.css"
 import BaseLayout from "./BaseLayout.astro";
+import 'bootstrap/dist/css/bootstrap.min.css';
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout title={frontmatter.title}>
-  <p>{frontmatter.pubDate.slice(0, 10)}</p>
-  <p><em>{frontmatter.description}</em></p>
-  <p>Written by: {frontmatter.author}</p>
-  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-  <slot />
+  <div class="main-content">
+    <h1 class="text-gradient">{frontmatter.title}</h1>
+    <div>
+	  <div class="instructions text-light bg-dark desk">
+		<p>
+			<span style="color: rgb(243, 75, 243);">Publish date:</span> {frontmatter.pubDate.slice(0, 10)}<br />
+			<span style="color: rgb(243, 75, 243);">Written by:</span> {frontmatter.author}<br />
+			<em>{frontmatter.description}</em><br />
+		</p>
+		<img src={frontmatter.image.url} alt={frontmatter.image.alt} style="height: 100%; max-height: 100px; margin-left: 10px;" />
+	  </div>
+	  	
+	
+	  <div class="contenido-principal">
+		<slot />
+	  </div>
+    </div>
+  </div>
 </BaseLayout>
+
+<style>
+	.contenido-principal{
+		background-color: rgb(33, 37, 41);
+		padding: 15px;
+		border-radius: 0.4em;
+		color: #fdfdf0;
+	}
+
+	@media (max-width:768px){
+		.desk{
+			align-items: center;
+			display: grid;
+			place-items: center;
+		}
+		img{
+			max-width: 100%;
+		}
+	}
+	@media (min-width:768px){
+		.desk{
+		display: flex; 
+		align-items: center; 
+		justify-content: space-between;
+		}
+	}
+	
+  .main-content{
+    margin: auto;
+		padding: 1.5rem;
+		max-width: 1200px;
+  }
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 1200px;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: white;
+		padding: 1rem;
+		border-radius: 0.4rem;
+	}
+	.instructions code {
+		font-size: 0.875em;
+		font-weight: bold;
+		background: rgba(var(--accent), 12%);
+		color: rgb(var(--accent));
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+	img{
+		border-radius: 5px;
+		max-height: 100%;
+	}
+</style>
