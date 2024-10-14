@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Hola mundo'
-pubDate: 2024-10-14
+pubDate: 2024-10-15
 description: "Este es mi primer post, podras leer parte de la historia tras de mi"
 author: elektxo
 image:
