@@ -5,7 +5,7 @@ pubDate: 2024-10-14
 description: "Este es mi primer post, podras leer parte de la historia tras de mi"
 author: elektxo
 image:
-  url: "https://photos.app.goo.gl/RSUNXZGEavktMtvDA"
+  url: "https://raw.githubusercontent.com/elektxo/dev-elektxo/refs/heads/main/src/pages/imgs/una_nueva_vida.jpg"
   alt: "A bit of me"
 tags: ["yo", "blogging", "learning in public", "leccion de vida", "vida", "cambio", "superacion"]
 
