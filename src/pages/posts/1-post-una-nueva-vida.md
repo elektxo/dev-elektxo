@@ -10,8 +10,6 @@ image:
 tags: ["yo", "blogging", "learning in public", "leccion de vida", "vida", "cambio", "superacion"]
 
 ---
-Published on: 2024-10-15
-
 # Todo empieza aquí
 
 Tras unos largos años en los que he estado perdido, por fin he podido encontrarme a mí mismo y abrir los ojos.
@@ -20,4 +18,4 @@ Todo remonta a `2018`, donde no sabía qué me deparaba esta vida. Ese año, baj
 
 Hace ya dos meses tomé la decisión: tengo que librarme de todo, quitarme todos los problemas de encima y afrontar esos otros que, por miedo a perderlo, los dejé pasar. Pues sí, me armé de valor e hice lo que ni yo creí: acabé con todo, una vida de `comodidad`, `miedo`, `vicios` y `cero preocupación por mí mismo`. Después de eso, he tomado una vida en la que me he priorizado, he valorado más a muchas de esas personas que me han acompañado durante años y a otras nuevas, de las que no me arrepiento, con las que gracias a todos he mejorado. Afronté uno de los mayores miedos, uno que vivía conmigo. Y llegamos a hoy: puedo afirmar que soy feliz, hablo, como y comparto con quien quiero, sin mirar atrás al que pasará. Así que sí, gracias a todas esas personas, pocas pero de gran importancia, granitos de arena que poco a poco llenaron la playa.
 
-Gracias a esas 5 personas, en sus más y en sus menos, me abrieron los ojos. Gracias.
+Gracias a esas personas, que en sus más y en sus menos, me abrieron los ojos. Gracias.
